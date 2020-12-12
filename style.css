@@ -1,0 +1,82 @@
+/* Start Global Style */
+body {
+    padding-top: 55px;
+}
+
+@media (mon-width:992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height:300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+/* End Global Style */
+
+/* NAvigation background color */
+.bg-dark {
+    background-color: #0c0a1a!important;
+}
+
+/* Call to action button */
+
+.btn-secondary:hover {
+    color:#fff;
+    background-color: #000080;
+    border-color: #000080;
+}
+
+/* Button hover state */
+.btn-primary:hover {
+    color:#fff;
+    background-color: #000080;
+    border-color: #000080;
+}
+
+.collapse .navbar-nav .nav-item {
+    margin-right:40px ;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: lightgrey;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: rgb(201, 44, 57);
+    color: white;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
